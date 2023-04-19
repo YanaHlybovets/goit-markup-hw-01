@@ -1,0 +1,73 @@
+.main-page {
+    background: #2E2F42;
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.header-page1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 260px;
+}
+
+.header-page2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.header-page3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.header-main {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+}
+
+.studio-link {
+    width: 48px;
+    height: 24px;
+}
