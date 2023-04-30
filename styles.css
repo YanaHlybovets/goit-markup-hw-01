@@ -1,73 +1,116 @@
-.main-page {
-    background: #2E2F42;
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
-    display: flex;
-    flex-direction: column;
+ul {
+    list-style: none;
 }
 
-.button {
+.link {
+    text-decoration: none;
+}
+
+.link:hover, .link:focus {
+    text-decoration: underline;
+    color: #404BBF
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.contact-link {
+    color: #434455;
+}
+
+.order-button {
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
 
-.header-page1 {
-    font-family: 'Roboto';
-    font-style: normal;
+.order-button:hover, .order-button:focus {
+    background: #404BBF
+}
+
+.main-page {
+    background: #2E2F42;
+}
+
+.main-header {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    color: #FFFFFF;
     text-align: center;
-    letter-spacing: 0.02em;
-    position: absolute;
-    width: 496px;
-    height: 120px;
-    left: 472px;
-    top: 260px;
+    letter-spacing: 0.02em
 }
 
-.header-page2 {
-    font-family: 'Roboto';
-    font-style: normal;
+.content-page {
+    background: #FCFCFC;
+}
+
+.secondary-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.header-page3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
+.team-page {
+    background: #F4F4FD;
 }
 
-.header-main {
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
+.content-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.studio-link {
-    width: 48px;
-    height: 24px;
+.content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer-content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.footer-type {
+    background: #2E2F42;
 }
